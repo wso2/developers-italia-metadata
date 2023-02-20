@@ -130,6 +130,6 @@ name: WSO2 API MANAGER
 platforms:
   - windows
   - linux
-releaseDate: '2022-11-14'
+releaseDate: '2022-04-11'
 softwareType: standalone/backend
 url: 'https://github.com/wso2/product-apim'
