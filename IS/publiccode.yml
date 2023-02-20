@@ -1,0 +1,109 @@
+# This repository adheres to the publiccode.yml standard by including this
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: WSO2
+categories:
+  - it-security
+  - it-service-management
+  - identity-management
+description:
+  it:
+    documentation: 'https://wso2.com/identity-server/'
+    features:
+      - Easily add critical IAM features to your CX projects
+      - Leverage WSO2 Identity Server within your customer experience apps
+      - SSO, seamless login,forgotten password,account recovery and consent management
+      - SDKs, pre-built connectors
+      - Flexible, scalable architecture
+      - Capability to Embed WSO2 IS within your own SaaS or on-premises solution for redistribution
+      - Compliant with SAML, OIDC, OAuth2
+      - CI/CD compatiblity
+      - Deployable on VirtualMachine, Docker Containers Orchestrator (K8, OS...)
+    genericName: WSO2 IDENTITY SERVER
+    localisedName: WSO2 IDENTITY SERVER
+    longDescription: |
+      # WSO2 Identity Server
+
+
+      WSO2 Identity Server is an open source Identity and Access  Management
+      solution that helps federating and managing identities  across both
+      enterprise and cloud service environments. It supports a  wide array of
+      authentication protocols such as SAML 2.0 Web SSO, OpenID,  OAuth 2.0,
+      OpenID Connect and WS-Federation Passive. It supports role  based
+      authorization and fined grained authorization with XACML 2.0/3.0  and Open
+      Agent, while inbound/outbound provisioning is supported through  SCIM.
+
+
+      This is based on the revolutionary WSO2 Carbon framework.  All the major
+      features have been developed as pluggable Carbon  components.
+
+
+      Designed for developers, by developers, WSO2 Identity  Server offers an
+      open API-driven architecture alongside a broad set of  developer tools.
+      Its impressive extensibility, scalability, and dedicated community make
+      it the ideal choice for your identity development needs.
+
+
+      **Key features:**
+
+
+      - Easily add critical IAM features to your CX projects
+
+          - Leverage WSO2 Identity Server within your customer experience apps
+          - Quickly configure critical identity requirements with a few lines of code
+          - SSO, seamless login, forgotten password, account recovery, consent management, and much more
+          - Our comprehensive portfolio of SDKs, pre-built connectors, documentation, and samples turbocharges your developers’ productivity
+      - CIAM, IAM or OEM
+
+          - Flexible, scalable architecture adapts to your use case–securing your customer identities or enabling workforce security
+          - Embed WSO2 Identity Server within your own SaaS or on-premises solution for redistribution
+      - Scale up your users, not your costs
+
+          - Confidently expand your user count, all the way up to consumer/citizen scale
+          - We don’t penalize your growth with rising, unpredictable licensing, and support costs
+          - Transparent, core-based pricing remains affordable as you grow
+      - Maintain ultimate control
+
+          - Decide how and where your IAM system and identity data are deployed  on-premises, in your chosen cloud environment, or let WSO2 host your  very own Private Identity Cloud
+          - Highly extensible architecture encourages customization to suit your needs
+          - Open-source transparency lends confidence in code quality
+    shortDescription: |-
+      WSO2 Identity Server is an open source Identity and Access Management
+      solution that helps federating and managing identities across both
+      enterprise
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: true
+    pagopa: false
+    spid: true
+legal:
+  license: Apache-2.0
+  mainCopyrightOwner: 'https://wso2.com/terms-of-use/'
+  repoOwner: WSO2
+localisation:
+  availableLanguages:
+    - en
+  localisationReady: true
+maintenance:
+  contacts:
+    - email: eu-bizdev@wso2.com
+      name: WSO2 EU Sales
+      phone: '+442036966510'
+  type: internal
+name: WSO2 IDENTITY SERVER
+platforms:
+  - windows
+  - linux
+releaseDate: '2022-11-14'
+softwareType: standalone/backend
+url: 'https://github.com/wso2/product-is'

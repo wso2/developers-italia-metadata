@@ -1,0 +1,135 @@
+# This repository adheres to the publiccode.yml standard by including this
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: WSO2
+categories:
+  - it-security
+  - it-service-management
+description:
+  it:
+    documentation: 'https://wso2.com/api-manager/'
+    features:
+      - Design and Prototype APIs
+      - Create a Developer Portal of All the Available APIs
+      - Publishing and Governing API use
+      - Control Access and Enforce Security
+      - Route API Traffic
+      - Manage Developer Community
+      - Govern Complete API Lifecycle
+      - Monitor API Usage and Performance
+      - Pluggable, Extensible, and Themeable
+      - Easily Deployable in Enterprise Settings
+      - Support for Creating Multi-tenanted APIs
+      - Publishing and Governing API Use
+      - Monitor API Usage and Performance
+    genericName: WSO2 API MANAGER
+    localisedName: WSO2 API MANAGER
+    longDescription: |
+      # WSO2 API Manager
+
+
+      WSO2 APIM openSource references
+
+
+      WSO2 API Manager (WSO2 API-M) is a powerful platform for  creating,
+      managing, consuming, and monitoring APIs. It combines tried  and tested
+      "Syncronous and Asycronous Services Architecture" best  practices with
+      modern day API management principles to solve a wide  range of enterprise
+      challenges associated with API provisioning,  governance, and integration.
+
+
+      WSO2 API Manager consists of several loosely coupled modules.
+
+
+      - API Publisher
+
+      - API Developer Portal
+
+      - API Gateway
+
+      - API Key Manager
+
+      - API Traffic Manager
+
+
+      The API publisher module allows API publishers to easily define APIs and
+      manage them using a strong governance model that consists of
+      well-established concepts such as, versioning and lifecycles. API
+      consumers can use the API Developer Portal to discover published,
+      production-ready APIs and access them in a secure and reliable manner
+      using unique API keys. The built-in API Gateway module provides powerful
+      tools to secure and control the load on individual APIs.
+
+
+      WSO2 API Manager is based on the revolutionary WSO2 Carbon  [Middleware a'
+      la carte] framework. All the major features have been  developed as
+      reusable Carbon components.
+
+
+      **Key Features:**
+
+
+      - Design and Prototype APIs
+
+      - Create a Developer Portal of All the Available APIs
+
+      - Publishing and Governing API use
+
+      - Control Access and Enforce Security
+
+      - Route API Traffic
+
+      - Manage Developer Community
+
+      - Govern Complete API Lifecycle
+
+      - Monitor API Usage and Performance
+
+      - Pluggable, Extensible, and Themeable
+
+      - Easily Deployable in Enterprise Settings
+
+      - Support for Creating Multi-tenanted APIs
+
+      - Publishing and Governing API Use
+
+      - Monitor API Usage and Performance
+    shortDescription: |-
+      WSO2 API Manager (WSO2 API-M) is a powerful platform for creating,
+      managing, consuming, and monitoring APIs.
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+legal:
+  license: Apache-2.0
+  mainCopyrightOwner: 'https://wso2.com/terms-of-use/'
+  repoOwner: WSO2
+localisation:
+  availableLanguages:
+    - en
+  localisationReady: true
+maintenance:
+  contacts:
+    - email: eu-bizdev@wso2.com
+      name: WSO2 EU Sales
+      phone: '+442036966510'
+  type: internal
+name: WSO2 API MANAGER
+platforms:
+  - windows
+  - linux
+releaseDate: '2022-11-14'
+softwareType: standalone/backend
+url: 'https://github.com/wso2/product-apim'
