@@ -104,6 +104,6 @@ name: WSO2 IDENTITY SERVER
 platforms:
   - windows
   - linux
-releaseDate: '2022-11-14'
+releaseDate: '2023-02-01'
 softwareType: standalone/backend
 url: 'https://github.com/wso2/product-is'
