@@ -25,37 +25,54 @@ description:
       # WSO2 Identity Server
 
 
-      WSO2 Identity Server (WSO2 IS) simplifies the Customer Identity and Access Management (CIAM) needs of your organization. The product ensures easy integration with a variety of applications to facilitate single sign-on (SSO), social login, identity federation, API security, strong authentication, account management, privacy compliance, and so much more.
+      WSO2 Identity Server (WSO2 IS) simplifies the Customer Identity and Access 
+      Management (CIAM) needs of your organization. The product ensures easy 
+      integration with a variety of applications to facilitate single sign-on (SSO),
+       social login, identity federation, API security, strong 
+      authentication, account management, privacy compliance, and so much more.
 
 
       **Key features:**
 
 
       - Single sign on (SSO)
-          - Facilitates SSO between multiple logged-in applications for an improved user experience.
+          - Facilitates SSO between multiple logged-in applications for an improved 
+            user experience.
 
       - Identity federation
-          - Enables federated access to web and mobile applications across multiple trust domains using open identity standards (including SAML, OIDC, and WS-Federation).
+          - Enables federated access to web and mobile applications across multiple 
+            trust domains using open identity standards (including SAML, OIDC, and 
+            WS-Federation).
 
       - Multi-factor and adaptive authentication
-          - Multi-factor and adaptive authentication based on context, risk, and identity attributes.
+          - Multi-factor and adaptive authentication based on context, risk, and 
+            identity attributes.
 
       - Passwordless authentication
-          - Implement phishing proof and access with a security key or biometrics with FIDO2 support.
+          - Implement phishing proof and access with a security key or biometrics 
+            with FIDO2 support.
 
       - Privacy and consent management
-          - Record, review, and revoke user consent by adhering to privacy by design principles and industry standards and regulations (e.g., GDPR and CCPA). Gives users control over their personal data.
+          - Record, review, and revoke user consent by adhering to privacy by design 
+            principles and industry standards and regulations (e.g., GDPR and CCPA). 
+            Gives users control over their personal data.
 
       - API security
           - Secure access to APIs and microservices-based on open standards such as OAuth2.
 
       - User management
-          - Easily and securely manage user accounts and their storage, manage and assign roles and groups, manage user’s permission levels, and allow users to manage their own profile and preferences.
+          - Easily and securely manage user accounts and their storage, manage and 
+            assign roles and groups, manage user’s permission levels, and allow users
+            to manage their own profile and preferences.
 
       - Access control
-          - Control or restrict access to resources like applications and APIs, based on roles, attributes, or administrator discretion and provide the correct access to the relevant resources at the correct times.
+          - Control or restrict access to resources like applications and APIs, based 
+            on roles, attributes, or administrator discretion and provide the correct
+            access to the relevant resources at the correct times.
     shortDescription: |-
-      WSO2 Identity Server provides modern identity and access management capabilities that can be easily built into your organization’s customer experience (CX) applications, or even deployed to fulfill workforce IAM requirements.
+      WSO2 Identity Server is an open source Identity and Access Management solution
+      federating and managing identities across both enterprise and cloud service
+      environments.
     awards:
       - Overall Leader in the KuppingerCole leadership compass in 2020.
 developmentStatus: stable
