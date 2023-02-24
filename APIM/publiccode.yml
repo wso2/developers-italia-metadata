@@ -8,7 +8,7 @@ categories:
   - it-security
   - it-service-management
 description:
-  it:
+  en:
     documentation: 'https://wso2.com/api-manager/'
     features:
       - Design and Prototype APIs
@@ -24,6 +24,7 @@ description:
       - Support for Creating Multi-tenanted APIs
       - Publishing and Governing API Use
       - Monitor API Usage and Performance
+      - Localization support
     genericName: WSO2 API MANAGER
     localisedName: WSO2 API MANAGER
     longDescription: |
@@ -99,6 +100,8 @@ description:
     shortDescription: |-
       WSO2 API Manager (WSO2 API-M) is a powerful platform for creating,
       managing, consuming, and monitoring APIs.
+    awards:
+      - Best in API Middleware award at the 2021 API Awards, held at API World 2021
 developmentStatus: stable
 it:
   conforme:
@@ -123,13 +126,20 @@ localisation:
 maintenance:
   contacts:
     - email: eu-bizdev@wso2.com
-      name: WSO2 EU Sales
-      phone: '+442036966510'
+    - name: WSO2 EU Sales
+    - phone: '+442036966510'
   type: internal
 name: WSO2 API MANAGER
 platforms:
   - windows
   - linux
+  - web
+  - mac
+  - ios
+  - android
+softwareVersion: '4.1.0'
 releaseDate: '2022-04-11'
-softwareType: standalone/backend
+softwareType:
+  - standalone/backend
+  - standalone/web
 url: 'https://github.com/wso2/product-apim'
