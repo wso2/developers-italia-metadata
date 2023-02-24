@@ -9,70 +9,55 @@ categories:
   - it-service-management
   - identity-management
 description:
-  it:
+  en:
     documentation: 'https://wso2.com/identity-server/'
     features:
       - Easily add critical IAM features to your CX projects
-      - Leverage WSO2 Identity Server within your customer experience apps
       - SSO, seamless login,forgotten password,account recovery and consent management
-      - SDKs, pre-built connectors
-      - Flexible, scalable architecture
-      - Capability to Embed WSO2 IS within your own SaaS or on-premises solution for redistribution
+      - SDKs, pre-built connectors to integrate with extenrnal services
       - Compliant with SAML, OIDC, OAuth2
       - CI/CD compatiblity
       - Deployable on VirtualMachine, Docker Containers Orchestrator (K8, OS...)
+      - Localization support
     genericName: WSO2 IDENTITY SERVER
     localisedName: WSO2 IDENTITY SERVER
     longDescription: |
       # WSO2 Identity Server
 
 
-      WSO2 Identity Server is an open source Identity and Access  Management
-      solution that helps federating and managing identities  across both
-      enterprise and cloud service environments. It supports a  wide array of
-      authentication protocols such as SAML 2.0 Web SSO, OpenID,  OAuth 2.0,
-      OpenID Connect and WS-Federation Passive. It supports role  based
-      authorization and fined grained authorization with XACML 2.0/3.0  and Open
-      Agent, while inbound/outbound provisioning is supported through  SCIM.
-
-
-      This is based on the revolutionary WSO2 Carbon framework.  All the major
-      features have been developed as pluggable Carbon  components.
-
-
-      Designed for developers, by developers, WSO2 Identity  Server offers an
-      open API-driven architecture alongside a broad set of  developer tools.
-      Its impressive extensibility, scalability, and dedicated community make
-      it the ideal choice for your identity development needs.
+      WSO2 Identity Server (WSO2 IS) simplifies the Customer Identity and Access Management (CIAM) needs of your organization. The product ensures easy integration with a variety of applications to facilitate single sign-on (SSO), social login, identity federation, API security, strong authentication, account management, privacy compliance, and so much more.
 
 
       **Key features:**
 
 
-      - Easily add critical IAM features to your CX projects
+      - Single sign on (SSO)
+          - Facilitates SSO between multiple logged-in applications for an improved user experience.
 
-          - Leverage WSO2 Identity Server within your customer experience apps
-          - Quickly configure critical identity requirements with a few lines of code
-          - SSO, seamless login, forgotten password, account recovery, consent management, and much more
-          - Our comprehensive portfolio of SDKs, pre-built connectors, documentation, and samples turbocharges your developers’ productivity
-      - CIAM, IAM or OEM
+      - Identity federation
+          - Enables federated access to web and mobile applications across multiple trust domains using open identity standards (including SAML, OIDC, and WS-Federation).
 
-          - Flexible, scalable architecture adapts to your use case–securing your customer identities or enabling workforce security
-          - Embed WSO2 Identity Server within your own SaaS or on-premises solution for redistribution
-      - Scale up your users, not your costs
+      - Multi-factor and adaptive authentication
+          - Multi-factor and adaptive authentication based on context, risk, and identity attributes.
 
-          - Confidently expand your user count, all the way up to consumer/citizen scale
-          - We don’t penalize your growth with rising, unpredictable licensing, and support costs
-          - Transparent, core-based pricing remains affordable as you grow
-      - Maintain ultimate control
+      - Passwordless authentication
+          - Implement phishing proof and access with a security key or biometrics with FIDO2 support.
 
-          - Decide how and where your IAM system and identity data are deployed  on-premises, in your chosen cloud environment, or let WSO2 host your  very own Private Identity Cloud
-          - Highly extensible architecture encourages customization to suit your needs
-          - Open-source transparency lends confidence in code quality
+      - Privacy and consent management
+          - Record, review, and revoke user consent by adhering to privacy by design principles and industry standards and regulations (e.g., GDPR and CCPA). Gives users control over their personal data.
+
+      - API security
+          - Secure access to APIs and microservices-based on open standards such as OAuth2.
+
+      - User management
+          - Easily and securely manage user accounts and their storage, manage and assign roles and groups, manage user’s permission levels, and allow users to manage their own profile and preferences.
+
+      - Access control
+          - Control or restrict access to resources like applications and APIs, based on roles, attributes, or administrator discretion and provide the correct access to the relevant resources at the correct times.
     shortDescription: |-
-      WSO2 Identity Server is an open source Identity and Access Management
-      solution that helps federating and managing identities across both
-      enterprise
+      WSO2 Identity Server provides modern identity and access management capabilities that can be easily built into your organization’s customer experience (CX) applications, or even deployed to fulfill workforce IAM requirements.
+    awards:
+      - Overall Leader in the KuppingerCole leadership compass in 2020.
 developmentStatus: stable
 it:
   conforme:
@@ -97,13 +82,20 @@ localisation:
 maintenance:
   contacts:
     - email: eu-bizdev@wso2.com
-      name: WSO2 EU Sales
-      phone: '+442036966510'
+    - name: WSO2 EU Sales
+    - phone: '+442036966510'
   type: internal
 name: WSO2 IDENTITY SERVER
 platforms:
   - windows
   - linux
+  - web
+  - mac
+  - ios
+  - android
+softwareVersion: '6.1.0'
 releaseDate: '2023-02-01'
-softwareType: standalone/backend
+softwareType:
+  - standalone/backend
+  - standalone/web
 url: 'https://github.com/wso2/product-is'
