@@ -19,6 +19,9 @@ description:
       - CI/CD compatiblity
       - Deployable on VirtualMachine, Docker Containers Orchestrator (K8, OS...)
       - Localization support
+      - MFA (Multi-Factor Authentication)
+      - Passwordless Authenticatoion Push-Based Authentication and Biometric Authentication
+      - Conditional Authentication for advanced CIAM usecases
     genericName: WSO2 IDENTITY SERVER
     localisedName: WSO2 IDENTITY SERVER
     longDescription: |
