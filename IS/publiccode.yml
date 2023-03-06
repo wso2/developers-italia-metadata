@@ -1,0 +1,121 @@
+# This repository adheres to the publiccode.yml standard by including this
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: WSO2
+categories:
+  - it-security
+  - it-service-management
+  - identity-management
+description:
+  en:
+    documentation: 'https://wso2.com/identity-server/'
+    features:
+      - Easily add critical IAM features to your CX projects
+      - SSO, seamless login,forgotten password,account recovery and consent management
+      - SDKs, pre-built connectors to integrate with extenrnal services
+      - Compliant with SAML, OIDC, OAuth2
+      - CI/CD compatiblity
+      - Deployable on VirtualMachine, Docker Containers Orchestrator (K8, OS...)
+      - Localization support
+      - MFA (Multi-Factor Authentication)
+      - Passwordless Authenticatoion Push-Based Authentication and Biometric Authentication
+      - Conditional Authentication for advanced CIAM usecases
+    genericName: WSO2 IDENTITY SERVER
+    localisedName: WSO2 IDENTITY SERVER
+    longDescription: |
+      # WSO2 Identity Server
+
+
+      WSO2 Identity Server (WSO2 IS) simplifies the Customer Identity and Access 
+      Management (CIAM) needs of your organization. The product ensures easy 
+      integration with a variety of applications to facilitate single sign-on (SSO),
+      social login, identity federation, API security, strong 
+      authentication, account management, privacy compliance, and so much more.
+
+
+      **Key features:**
+
+
+      - Single sign on (SSO)
+          - Facilitates SSO between multiple logged-in applications for an improved 
+            user experience.
+
+      - Identity federation
+          - Enables federated access to web and mobile applications across multiple 
+            trust domains using open identity standards (including SAML, OIDC, and 
+            WS-Federation).
+
+      - Multi-factor and adaptive authentication
+          - Multi-factor and adaptive authentication based on context, risk, and 
+            identity attributes.
+
+      - Passwordless authentication
+          - Implement phishing proof and access with a security key or biometrics 
+            with FIDO2 support.
+
+      - Privacy and consent management
+          - Record, review, and revoke user consent by adhering to privacy by design 
+            principles and industry standards and regulations (e.g., GDPR and CCPA). 
+            Gives users control over their personal data.
+
+      - API security
+          - Secure access to APIs and microservices-based on open standards such as OAuth2.
+
+      - User management
+          - Easily and securely manage user accounts and their storage, manage and 
+            assign roles and groups, manage user’s permission levels, and allow users
+            to manage their own profile and preferences.
+
+      - Access control
+          - Control or restrict access to resources like applications and APIs, based 
+            on roles, attributes, or administrator discretion and provide the correct
+            access to the relevant resources at the correct times.
+    shortDescription: |-
+      WSO2 Identity Server is an open source Identity and Access Management solution
+      federating and managing identities across both enterprise and cloud service
+      environments.
+    awards:
+      - Overall Leader in the KuppingerCole leadership compass in 2020.
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: true
+    pagopa: false
+    spid: true
+legal:
+  license: Apache-2.0
+  mainCopyrightOwner: 'https://wso2.com/terms-of-use/'
+  repoOwner: WSO2
+localisation:
+  availableLanguages:
+    - en
+  localisationReady: true
+maintenance:
+  contacts:
+    - email: eu-bizdev@wso2.com
+    - name: WSO2 EU Sales
+    - phone: '+442036966510'
+  type: internal
+name: WSO2 IDENTITY SERVER
+platforms:
+  - windows
+  - linux
+  - web
+  - mac
+  - ios
+  - android
+softwareVersion: '6.1.0'
+releaseDate: '2023-02-01'
+softwareType:
+  - standalone/backend
+  - standalone/web
+url: 'https://github.com/wso2/product-is'
